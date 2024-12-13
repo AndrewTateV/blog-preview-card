@@ -1,0 +1,26 @@
+@media (max-width:25em){
+.container{
+width: 20.4375rem;
+}
+.main{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: var(--spacing-150, 0.75rem);
+                    align-self: stretch;
+}
+           
+h1{
+                    color: var(--color-gray-950, #111);
+                    font-family: Figtree;
+                    font-size: 1.25rem;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 150%; /* 1.875rem */
+}
+.img-container{
+                    display: flex;
+                    align-items: center;
+                    align-self: stretch;
+}
+}
